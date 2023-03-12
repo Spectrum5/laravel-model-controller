@@ -1,9 +1,11 @@
 <div class="container text-center">
-    <h1>
-        Movies
-    </h1>
+    <div class="py-4">
+        <h1>
+            Movies
+        </h1>
+    </div>
 
-    <div class="row justify-content-center gap-3">
+    <div class="row justify-content-center gap-3 py-5">
         @foreach ($movies as $movie)
             <div class="col-2">
                 <div class="card-info">
@@ -28,3 +30,7 @@
     </div>
 
 </div>
+
+<style>
+
+</style>
